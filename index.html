@@ -12,23 +12,26 @@
 </head>
 <body>
     <!--header width 100%-->
-    <header>
-        <nav class="d-flex">
-            <img src="./img/logo-small.png" alt="Logo Dropbox">
-            <div class="list-left">
-                <ul class="menu d-flex">
-                    <li><a href="#">Perchè Dropbox</a></li>
-                    <li><a href="#">Funzioni</a></li>
-                    <li><a href="#">Piani e Prezzi</a></li>
-                </ul>
-            </div>
-            <div class="right-list">
-                <ul>
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta l'ufficio vendite</a></li>
-                    <li><a href="#">Accedi</a></li>
-                    <li><a class="button" href="#">Inizia</a> </li>
-                </ul>
+    <header class="margin-bottom">
+        <nav>
+            <div class="w100 d-flex space-between align-center padding-1 fixed navbar">
+                <div class="d-flex justify-center align-center gap-1">
+                    <img class="d-flex align-center" src="./img/logo-small.png" alt="dropbox logo">
+                    <ul class="d-flex justify-center align-center gap-2">
+                        <li>Perch&egrave; Dropbox</li>
+                        <li>Funzioni</li>
+                        <li>Piani e Prezzi</li>
+                    </ul>
+                </div>
+
+                <div class="d-flex justify-center align-center gap-1">
+                    <ul class="d-flex justify-center align-center gap-2">
+                        <li>Supporto</li>
+                        <li>Contatta l'ufficio vendite</li>
+                        <li>Accedi</li>
+                    </ul>
+                    <a class="btn btn-primary" href="/">Inizia</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -100,3 +103,26 @@
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+<div class="d-flex space-between align-center">
+    <div class="list-left d-flex  justify-center align-center">
+        <img class="d-flex align-center" src="./img/logo-small.png" alt="Logo Dropbox">
+        <ul class="">
+            <li><a href="#">Perchè Dropbox</a></li>
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
+        </ul>
+    </div>
+    <div class="list-right d-flex align-center">
+    <ul class="right-list">
+        <li><a href="#">Supporto</a></li>
+        <li><a href="#">Contatta l'ufficio vendite</a></li>
+        <li><a href="#">Accedi</a></li>
+        <li><a class="button" href="#">Inizia</a> </li>
+    </ul>
+</div>
