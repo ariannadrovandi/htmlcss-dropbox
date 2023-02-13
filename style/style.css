@@ -5,6 +5,21 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+:root{
+    --button: #0061FF;
+    --bg-lightblue: #B4D0E7;
+    --darkcolor: #000000;
+    --lightcolor: #FFFFFF;
+    --mint: #A2D39B;
+    --medium-blue: #0093CE;
+    --neon-red: #FF1C1C;
+    --bordeaux: #61082B;
+    --cherry-red: #D5001F;
+    --blue: #0D2481;
+    --yellow: #FFD830;
+    --lightgrey: #F5F5F5;
+}
+
 .debug{
     border: 1px solid red;
 }
