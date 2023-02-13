@@ -4,3 +4,16 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+.debug{
+    border: 1px solid red;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
