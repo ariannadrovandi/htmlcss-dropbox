@@ -49,6 +49,15 @@ ul{
     padding: 10px;
 }
 
+.bg-lightblue{
+    background-color: var(--bg-lightblue);
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+
 /*HEADER*/
 /*MAIN*/
 /*FOOTER*/
