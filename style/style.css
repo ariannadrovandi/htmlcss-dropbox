@@ -57,6 +57,22 @@ ul{
     margin-bottom: 100px;
 }
 
+.d-felx{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
 
 /*HEADER*/
 /*MAIN*/
