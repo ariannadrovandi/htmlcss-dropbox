@@ -84,11 +84,11 @@ ul{
 }
 
 .gap-1 {
-    gap: 0 2rem;
+    gap: 0 1rem;
 }
 
 .gap-2 {
-    gap: 0 3rem;
+    gap: 0 2rem;
 }
 
 .padding-1 {
@@ -121,12 +121,12 @@ a{
     color: var(--primary-color);
     text-decoration: none;
     display: inline-block;
-    padding: 5px;
+    padding: 21px;
+    
 }
 
-a:hover{
 
-}
+
 
 
 /*HEADER*/
@@ -142,6 +142,10 @@ header{
 
 .img{
     width: 150px;
+}
+
+.underline:hover{
+    border-bottom: 2px solid var(--darkcolor);
 }
 
 
