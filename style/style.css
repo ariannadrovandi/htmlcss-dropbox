@@ -19,6 +19,7 @@
     --blue: #0D2481;
     --yellow: #FFD830;
     --lightgrey: #F5F5F5;
+    --grey-border: #EDEDEE;
     
 }
 
@@ -94,7 +95,7 @@ ul{
     padding: 1rem;
 }
 
-.margin-bottom{
+.margin-bottom1.5{
     margin-bottom: 1.5rem;
 }
 
@@ -102,8 +103,12 @@ ul{
     padding-top: 3rem;
 }
 
-.padding-bottom{
-    padding-bottom: 1.5rem;
+.padding-bottom1{
+    padding-bottom: 1rem;
+}
+
+.padding-bottom2{
+    padding-bottom: 2rem;
 }
 
 h1{
@@ -132,10 +137,13 @@ a{
     color: var(--primary-color);
     text-decoration: none;
     display: inline-block;
-    padding: 21px;
-    
+    padding: 21px;  
 }
 
+.decoration{
+    text-decoration: underline;
+    color: #0D2481;
+}
 
 
 
@@ -165,7 +173,7 @@ header{
 main{
     padding-top: 80px;
 }
-/*jumbo*/
+/*JUMBO*/
 #jumbo{
     margin-bottom: 100px;
 }
@@ -187,6 +195,151 @@ main{
     font-size: 3.5rem;
 }
 
+/*PLANS*/
+
+#plans h2{
+    font-size: 2rem;
+}
+
+    /*---------------------------------------------------*/
+    /*checkbox*/
+    /* The container */
+.container-1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+    /* Hide the browser's default radio button */
+  .container-1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+    /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+    /* On mouse-over, add a grey background color */
+  .container-1:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+    /* When the radio button is checked, add a blue background */
+  .container-1 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+    /* Show the indicator (dot/circle) when checked */
+  .container-1 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+    /* Style the indicator (dot/circle) */
+  .container-1 .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+    /*---------------------------------------------------*/
+.checkbox{
+    padding-top: 1.5rem;
+}
+
+
+    /*colonne*/
+.column{
+    width: calc((100% / 3) - 40px);
+    border: 1px solid var(--grey-border);
+    font-size: 16px;
+    
+}
+
+.utente{
+    border: 1px solid var(--grey-border);
+    font-size: 12px;
+    text-align: center;
+    padding: 4px;
+}
+
+.column h3{
+    font-size: 22px;
+}
+
+.info{
+    padding: 30px 15px 30px 15px;
+}
+
+.button-plans{
+    padding-left: 35%;
+    padding-right: 39%;
+    text-align: center;
+}
+
+.button-plans1{
+    padding-left: 15%;
+    padding-right: 19%;
+    text-align: center;
+}
+
+
+.linea{
+    color: var(--grey-border);
+}
+
+.margin-right{
+    margin-right: 40px;
+}
+
+    /*plans-bottom*/
+.plans-bottom{
+    width: 100%;
+    border: 1px solid var(--grey-border);
+}
+
+.plans-bottom h3{
+    font-size: 18px;
+}
+
+.plans-bottom h4{
+    font-size: 14px;
+}
+
+.info1{
+    padding: 8px 0 0 15px;
+}
+
+.info1 p{
+    font-size: 14px;
+    padding: 30px 0 60px 15px;
+}
+
+/*FREE-TRY*/
 #freetry h2{
     color: var(--bordeaux);
 }
