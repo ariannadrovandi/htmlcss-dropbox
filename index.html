@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/style.css">
     <title>Dropbox</title>
 </head>
 <body>
     <!--header width 100%-->
-    <header class="">
-        <nav class=" d-flex space-between align-center padding-1 navbar">
-             
+    <header class="fixed">
+        <nav class=" d-flex space-between align-center padding-1">
                 <div class="d-flex justify-center align-center gap-1">
                     <img class=" align-center" src="./img/logo-small.png" alt="dropbox logo">
                     <ul class="d-flex justify-center align-center gap-2">
@@ -32,25 +32,36 @@
                     </ul>
                     <a class="button" href="#">Inizia</a>
                 </div>
-            
         </nav>
     </header>
+ 
     <!--main width 100%-->
     <main>
         <!--JUMBO width 1200px-->
         <section id="jumbo" class="bg-lightblue mb-100">
             <div class="container debug">
                 <h1>Tutto cio che ti serve per il lavoro, in un unico posto</h1>
-                <div class="d-flex">
-
+                <div class=" padding-top d-flex space-between">
+                    <div class="column-left debug">
+                       <p class="padding-bottom">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto
+                        Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p> 
+                        <a class="button margin-bottom" href="#">Inizia la tua prova gratuita</a>
+                        <p class="padding-bottom">Annulla in qualsiasi momento</p>
+                        <a id="arrow-down" href="#arrivo"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                    <div class="column-right debug">
+                        <img class="img-jumbo" src="./img/jumbo.png" alt="jumbo">
+                    </div>
                 </div>
-                <!--altro testo con button e img-->
             </div>
         </section>
         <!--sezione plans-->
         <section id="plans" class="mb-100">
             <div class="container-small debug">
-                <h2>trova il piano business che fa per te</h2>
+                <h2>Trova il piano business che fa per te</h2>
+                <div class="checkbox">
+                    <select name="" id=""></select>
+                </div>
             </div>
         </section>
         <!-- sezione partner-->
@@ -77,6 +88,7 @@
         </section>
         <!--sezione prova gratuita-->
         <section id="freetry" class="bg-lightblue mb-100">
+            <a name="arrivo"></a>
             <div class="container-small debug">
                 <h2>porta dropbox business nella tua azienda</h2>                 
             </div>
@@ -106,26 +118,3 @@
     </footer>
 </body>
 </html>
-
-
-
-
-
-
-<div class="d-flex space-between align-center">
-    <div class="list-left d-flex  justify-center align-center">
-        <img class="d-flex align-center" src="./img/logo-small.png" alt="Logo Dropbox">
-        <ul class="">
-            <li><a href="#">Perchè Dropbox</a></li>
-            <li><a href="#">Funzioni</a></li>
-            <li><a href="#">Piani e Prezzi</a></li>
-        </ul>
-    </div>
-    <div class="list-right d-flex align-center">
-    <ul class="right-list">
-        <li><a href="#">Supporto</a></li>
-        <li><a href="#">Contatta l'ufficio vendite</a></li>
-        <li><a href="#">Accedi</a></li>
-        <li><a class="button" href="#">Inizia</a> </li>
-    </ul>
-</div>
