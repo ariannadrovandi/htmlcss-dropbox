@@ -71,6 +71,10 @@ ul{
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 .justify-center{
     justify-content: center;
 }
@@ -535,8 +539,34 @@ details > p {
 
 /*FOOTER*/
 footer{
-    background-color: var(--dark-color);
-    color: var(--bg-light-color);
+    background-color: var(--darkcolor);
+    color: var(--lightcolor);
+}
+
+.navfooter{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navfooter li{
+    padding-bottom: 1rem;
+    font-size: 14px;
+}
+
+.navfooter h4{
+    padding-bottom: 1.2rem;
+    font-size: 18px;
+}
+
+.seleziona{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#lingua{
+    background-color: var(--darkcolor);
+    color: var(--lightcolor);
+    border: none;
 }
 
 
