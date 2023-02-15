@@ -77,7 +77,9 @@ ul{
 
 .align-center{
     align-items: center;
+    align-content: center;
 }
+
 
 .fixed {
     position: fixed;
@@ -154,7 +156,7 @@ a{
 
 /*HEADER*/
 header{
-    background-color: var(--bg-light-color);
+    background-color: var(--lightcolor);
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -401,19 +403,82 @@ main{
 }
 
 
-/*CUSTOMERS*/
-#customers h2{
+/*CUSTOMER*/
+#customer h2{
     font-size: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
-#customers a{
+#customer a{
     font-size: 12px;
     margin-left: -20px;
+    padding-bottom: 4rem;
 }
 
+        /*loghi*/
+#loghi section{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
 
+#loghi .quadrato{
+    width: 50%;
+    height: 50%;
+}
+
+#loghi .quad-center{
+    background-color: var(--lightgrey);
+    padding: 40px 25px;
+}
+
+#loghi .q-1{
+    background-color: var(--mint);
+}
+
+#loghi .q-2{
+    background-color: var(--bordeaux);
+}
+
+#loghi .q-3{
+    background-color: var(--medium-blue);
+}
+
+#loghi .q-4{
+    background-color: var(--neon-red);
+}
+
+#loghi .q-5{
+    background-color: var(--cherry-red);
+}
+
+#loghi .q-6{
+    background-color: var(--bg-lightblue);
+}
+
+#loghi .q-7{
+    background-color: var(--blue);
+}
+
+#loghi .q-8{
+    background-color: var(--yellow);
+}
+
+.quad-left img, .quad-right img, .quad-center img{
+    width: 50%;
+}    
+
+.invert{
+    filter: invert();
+}
+
+.quad-center .linea{
+    color: #bbbbbb;
+}
+
+.quad-center p{
+    font-size: 14px;
+}
 
 
 
