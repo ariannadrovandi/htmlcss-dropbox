@@ -289,6 +289,10 @@ main{
     border: 1px solid var(--grey);
 }
 
+.text{
+    padding: 20px;
+}
+
 .plans-bottom h3{
     font-size: 18px;
 }
