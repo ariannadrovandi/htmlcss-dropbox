@@ -621,6 +621,13 @@ footer{
     border: none;
 }
 
+.navfooter a{
+    padding: 0.2rem;
+}
+
+.navfooter a:hover{
+    text-decoration: underline;
+}
 
 
 {
