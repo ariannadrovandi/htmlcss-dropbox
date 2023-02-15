@@ -142,6 +142,12 @@ img{
     text-decoration: none; 
 }
 
+.icon{
+    padding-right: 4px;
+}
+
+
+
 /*ANCORE*/
 a{
     color: var(--primary-color);
@@ -355,6 +361,72 @@ main{
 .info1 p{
     font-size: 14px;
 }
+
+li.list-icon{
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-left: 1.5em;
+    text-indent: -0.9em;
+}
+
+.user::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f007";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.team::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f0c0";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.building::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f1ad";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.folder::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f07b";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.share::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f1e0";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.check::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+
+
+
+
 
 
 /*PARTNERS*/
