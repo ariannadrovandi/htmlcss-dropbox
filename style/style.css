@@ -430,6 +430,7 @@ main{
 #loghi .quad-center{
     background-color: var(--lightgrey);
     padding: 40px 25px;
+    overflow-y: auto;
 }
 
 #loghi .q-1{
@@ -481,14 +482,32 @@ main{
 }
 
 
-
-
-
-
 /*FREE-TRY*/
+#freetry{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    
+}
+
 #freetry h2{
     color: var(--bordeaux);
+    font-size: 2rem;
 }
+
+.variant{
+    border: none;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+
+/*FAQ*/
+#faq{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+
 
 /*FOOTER*/
 footer{
