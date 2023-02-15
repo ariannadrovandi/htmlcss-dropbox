@@ -350,6 +350,76 @@ main{
     font-size: 14px;
 }
 
+
+/*PARTNERS*/
+.img-partner{
+    width: 100%;
+}
+
+#partner .column-right{
+    width: 45%;
+    padding: 30px;
+
+}
+
+#partner .column-left{
+    width: 54%;
+}
+
+.button-white{
+    background-color: var(--lightcolor);
+    border: 1px solid var(--darkcolor);
+    color: var(--darkcolor);
+}
+
+
+/*FEATURES*/
+#features h2{
+    font-size: 2rem;
+}
+
+.card{
+    width: calc(100% / 3);
+    padding: 3px;
+}
+
+#features h3{
+    font-size: 20px;
+}
+
+#features p{
+    font-size: 14px;
+}
+
+#features img{
+    width: 250px;
+    display: block;
+}
+
+#features .description{
+    padding:25px 15px;
+}
+
+
+/*CUSTOMERS*/
+#customers h2{
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#customers a{
+    font-size: 12px;
+    margin-left: -20px;
+}
+
+
+
+
+
+
+
+
 /*FREE-TRY*/
 #freetry h2{
     color: var(--bordeaux);
