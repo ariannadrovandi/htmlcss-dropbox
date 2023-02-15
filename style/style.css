@@ -557,6 +557,38 @@ li.list-icon{
     font-size: 14px;
 }
 
+.shadow-mint:hover{
+    box-shadow: inset 5px 5px 20px 1px #ffffff; 
+}
+
+.shadow-bordeaux:hover{
+    box-shadow: inset 5px 5px 20px 1px #c84a7c; 
+}
+
+.shadow-medium:hover{
+    box-shadow: inset 5px 5px 20px 1px #87c8e1; 
+}
+
+.shadow-red:hover{
+    box-shadow: inset 5px 5px 20px 1px #ff5a5a; 
+}
+
+.shadow-cherry:hover{
+    box-shadow: inset 5px 5px 20px 1px #ff6078; 
+}
+
+.shadow-lightblue:hover{
+    box-shadow: inset 5px 5px 20px 1px #ffffff; 
+}
+
+.shadow-blue:hover{
+    box-shadow: inset 5px 5px 20px 1px #4f72fa; 
+}
+
+.shadow-yellow:hover{
+    box-shadow: inset 5px 5px 20px 1px #ffffff; 
+}
+
 
 /*FREE-TRY*/
 #freetry{
