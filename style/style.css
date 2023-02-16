@@ -152,9 +152,7 @@ img{
     color: #4f4d4d;
 }
 
-.icon{
-    padding-right: 4px;
-}
+
 
 
 
@@ -328,7 +326,7 @@ li.list-icon{
     font-family: "Font Awesome 6 Free";
     content: "\f007";
     display: inline-block;
-    padding-right: 3px;
+    padding-right: 8px;
     vertical-align: middle;
     font-weight: 900;
 }
@@ -337,7 +335,7 @@ li.list-icon{
     font-family: "Font Awesome 6 Free";
     content: "\f0c0";
     display: inline-block;
-    padding-right: 3px;
+    padding-right: 8px;
     vertical-align: middle;
     font-weight: 900;
 }
@@ -346,7 +344,7 @@ li.list-icon{
     font-family: "Font Awesome 6 Free";
     content: "\f1ad";
     display: inline-block;
-    padding-right: 3px;
+    padding-right: 8px;
     vertical-align: middle;
     font-weight: 900;
 }
@@ -355,7 +353,7 @@ li.list-icon{
     font-family: "Font Awesome 6 Free";
     content: "\f07b";
     display: inline-block;
-    padding-right: 3px;
+    padding-right: 8px;
     vertical-align: middle;
     font-weight: 900;
 }
@@ -364,7 +362,7 @@ li.list-icon{
     font-family: "Font Awesome 6 Free";
     content: "\f1e0";
     display: inline-block;
-    padding-right: 3px;
+    padding-right: 8px;
     vertical-align: middle;
     font-weight: 900;
 }
@@ -374,7 +372,7 @@ li.list-icon{
     content: "\f00c";
     color: var(--button);
     display: inline-block;
-    padding-right: 3px;
+    padding-right: 8px;
     vertical-align: middle;
     font-weight: 900;
 }
